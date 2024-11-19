@@ -1,6 +1,8 @@
 # Airsoft-BombPro 1.5
 By Ignacio Lillo yinbot -at- gmail 
 
+Latest Code Updated by DanielAniq
+
 Is an arduino sketch for prop simulation used in Airsoft/Paintball/Wargames
 
 Features:
