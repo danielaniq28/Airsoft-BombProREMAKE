@@ -40,7 +40,7 @@ void sabotage(){
     //###########################CHECKINGS##################
 
     //Check If Game End
-    if(minutos-aTime/60000==0 && 59-((aTime/1000)%60)==0)
+    if((minutos-aTime/60000==0 && 59-((aTime/1000)%60)==0) or (minutos-aTime/60000 >= 6000000.00))
     {
       lcd.clear();
       while(1){
