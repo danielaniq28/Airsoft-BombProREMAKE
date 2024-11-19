@@ -73,10 +73,10 @@ void domination(){
     //###########################CHECKINGS##################
 
     //Check If Game End
-    if(minutos-aTime/60000==0 && 59-((aTime/1000)%60)==0)
-    {
-      gameOver();
-    }
+	if((minutos-aTime/60000==0 && 59-((aTime/1000)%60)==0) or (minutos-aTime/60000 >= 6000000.00))
+	{
+	gameOver();
+	}
 
     //Check If IS neutral
     while((defuseando || cancelando) && team > 0)
